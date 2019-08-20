@@ -9,5 +9,6 @@ https://redash.io/help/open-source/setup#aws
 ```ap-northeast-1	ami-0c7d9b740e997aa69```
 
 ### Setup
-起動したインスタンスの/opt/redash配下のdocker-compose.ymlを上書きし、`docker-compose up -d`
-Redashコンソールからmysql接続設定を行う
+- 起動したインスタンスの/opt/redash配下のdocker-compose.ymlを上書き
+- `docker-compose up -d`
+- Redashコンソールからmysql接続設定を行う
